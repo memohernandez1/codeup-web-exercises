@@ -1,4 +1,50 @@
-h1{
-    color: purple;
+h1 {
+    text-align: center;
+    color: cyan;
     text-decoration: underline;
 }
+
+h2 {
+    color: deepskyblue;
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Courier New", serif;
+    background-color: aquamarine;
+    background-image: url("../img/space.jpeg");
+    background-size: 50%;
+    color: greenyellow;
+}
+
+li {
+    list-style: square;
+}
+
+table {
+    font-size: larger;
+    padding: 10px;
+    border: solid 3px white;
+}
+
+td {
+    border: solid;
+    border-color: aqua ;
+}
+
+a:link {
+    color: dodgerblue;
+}
+
+a:visited {
+    color: mediumpurple;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: red;
+}
+
