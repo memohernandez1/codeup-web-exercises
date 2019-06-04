@@ -15,6 +15,11 @@ li a {
     float: left;
 }
 
+ol {
+    background-color: white;
+
+}
+
 li a:hover {
     background-color: #bababa;
 }
