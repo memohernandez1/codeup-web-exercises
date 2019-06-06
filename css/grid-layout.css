@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.row{
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.column.one-half {
+    width: 50%;
+    background-color: purple;
+}
+
+.column.one-third {
+    width:33.3%;
+    background-color: hotpink;
+}
+
+.column.one-fourth {
+    width:25%;
+    background-color: chartreuse;
+}
+
+.column.one-eighth {
+    width:12.5%;
+    background-color: deepskyblue;
+}
+
+@media screen and (min-width: 1px) and (max-width: 991px) {
+    .one-half {
+        width: 100%;
+    }
+}
