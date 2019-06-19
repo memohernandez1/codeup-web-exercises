@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loops Lecture</title>
+</head>
+<body>
+    <h1>Learning about looping</h1>
+    <script>
+
+    "use strict";
+
+
+    //Guess the number game
+
+        var randomNumber = Math.floor((Math.random()*20)+1);
+        var guess = parseInt(prompt("Guess a random number between 1 and 20"))
+    if (guess == randomNumber)
+        alert("You guessed right");
+    else if (guess > randomNumber)
+        alert("Too high");
+    else //guess < randomNumber
+        alert("Too low");
+
+    console.log("Random Number was " + randomNumber);
+    console.log("Guess was " + guess);
+
+    })();
+
+    </script>
+
+</body>
+</html>
